@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Search from './Search'
 
 export const HotelsList = () => {
 
@@ -12,8 +13,8 @@ export const HotelsList = () => {
     }, [])
 
   return (
-    <div>
-        
-    </div>
+    <>
+        <Search/>
+    </>
   )
 }
